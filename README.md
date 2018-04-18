@@ -70,9 +70,9 @@ When you are given a new spec you may start making changes to your code that mee
 ## Makes refactoring easier
 It is easy write messy code, especially with javascript. To avoid writing messy and hard to read codes, it is a good habit to refactor your codes. But some developers are terrified to make changes to the code because `if it works, you leave it alone`. This is because when you don't have tests, it is hard to know how the code will execute after making changes. If there are tests, then we can know the code is working fine because all the test will be passing after changes have been made.
 
-## Quirks
+### Quirks
 - If you create a new `*spec.ts`, you will have to re-run the `npm test` command. Mocha will not be able to watch this test file because this file was created after the `mocha --watch` command was run. Therefore the new created test file will not be watched.
 - When terminating batch after `npm test`, you have to enter `"y"` twice to terminate the batch job(s).
 
-Notes:
+### Notes
 - tests done using `nvm use 8.9.4`
